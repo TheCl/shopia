@@ -81,11 +81,11 @@ header{
 	text-decoration: none;
 	color: black;
 	display:block;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: italic;
 }
 .bot-nav img{
-	margin: -30px 0 0 40%;
+	margin: -30px 0 0 42%;
 }
 .share{
 	  width: 200px;
@@ -129,7 +129,7 @@ outline: rgba(255,255,255,.4) 1000em solid;
 	margin: 0px;
 	padding: 0px;
      width: 100%;
-	min-height: 1100px;
+	min-height: 2000px;
 	background:#ffbbbb;
 }
 .slider img{
@@ -145,15 +145,15 @@ outline: rgba(255,255,255,.4) 1000em solid;
 }
 .slider-sale{
 	position: absolute;
-	min-width: 170px;
-	min-height: 170px;
+	min-width: 200px;
+	min-height: 200px;
 	border:2px solid #bdbab8;
    outline-style: solid;
    outline-width: 1px;
    outline-color: rgb(255, 255, 255);
    outline-offset: 6px;
    top: 50%;
-   left: 42%;
+   left: 43%;
    display: block;
 }
 .slider-sale{
@@ -179,13 +179,98 @@ outline: rgba(255,255,255,.4) 1000em solid;
 }
 .slider-sale .three{
 	color: black;
-	font-size: 18px;
-	margin-top: 10px;
+	font-size: 28px;
+	margin-top: 20px;
 	font-weight: bold;
 }
 .shop-now{
 	position: absolute;
    text-align: center;
    top: 90%;
-   left: 560px;
+   left: 590px;
+}
+.support {
+	position: relative;
+	width: 100%;
+}
+.support h3{
+position: absolute;
+top: -25px;
+padding-left: 130px;
+color: white;
+font-size: 32px;
+}
+.support p{
+position: absolute;
+position: absolute;
+top: 30px;
+padding-left: 130px;
+color: white;
+font-size: 22px;
+
+
+}
+.support ul{
+	margin: 65px 0;
+	padding: 0px;
+}
+.support ul li{
+	display: inline-block;
+	padding-right: 4px;
+}
+.handpicked{
+	width: 100%;
+	height: 1000px;
+	background: white;
+	position: relative;
+	border-top: 2px dotted grey;
+}
+.boots{
+	float: left;
+		margin-left: 20px;
+		outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(255, 255, 255);
+        outline-offset: -15px;
+}
+.paris{
+	float: left;
+		margin-left: 20px;
+		outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(255, 255, 255);
+        outline-offset: -15px;
+}
+.bracer{
+	float: right;
+		margin-right: 20px;
+		outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(255, 255, 255);
+        outline-offset: -15px;
+}
+.bracer2{
+	    float: left;
+	    clear: both;
+		margin-left: 20px;
+		position: relative;
+		top: -405px;
+		outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(255, 255, 255);
+        outline-offset: -15px;
+}
+.pocketbook{
+	    float: right;
+		position: relative;
+		top: -405px;
+		left: -28px;
+		outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(255, 255, 255);
+        outline-offset: -15px;
+}
+.handpicked h3{
+	font-size: 30px;
+	text-align: center;
 }
